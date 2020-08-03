@@ -1,6 +1,6 @@
 ### Diego Petrucci
 
-Hi, I'm Diego — and iOS engineer at [Plum](https://withplum.com). Previously worked at [babylon health](https://www.babylonhealth.com) on the NHS GP at Hand service, Healthcheck, and Monitor teams. I live in London, UK, but am originally from Tuscany, in Italy. After work find me dancing salsa and bachata 💃.
+Hi, I'm Diego — and iOS engineer at [Plum](https://withplum.com). Previously worked at [babylon health](https://www.babylonhealth.com) on the NHS GP at Hand service, Bupa, Healthcheck, and Monitor teams. I live in London, UK, but am originally from Tuscany, in Italy. After work find me dancing salsa and bachata 💃.
 
 Let's hangout!
 
