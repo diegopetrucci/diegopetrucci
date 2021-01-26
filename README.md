@@ -6,7 +6,7 @@ Let's hangout!
 
 #### Get in touch
 * Twitter [@diegopetrucci](https://twitter.com/diegopetrucci)
-* Personal website [diegopetrucci.it](http://www.diegopetrucci.it) + [blog](https://blog.diegopetrucci.it)
+* Personal website [diegopetrucci.it](http://www.diegopetrucci.it) + [blog](https://diegopetrucci.it/blog)
 
 <!--
 **diegopetrucci/diegopetrucci** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
