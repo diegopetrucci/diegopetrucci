@@ -5,4 +5,4 @@ Hi, I'm Diego — senior iOS engineer at [Numan](https://www.numan.com/). Previo
 #### Get in touch:
 * Twitter [@diegopetrucci](https://twitter.com/diegopetrucci)
 * Personal website [diegopetrucci.it](http://www.diegopetrucci.it) + [blog](https://diegopetrucci.it/blog)
-* instagram [@diegopetrucci](https://instagram.com/diegopetrucci)
+* Instagram [@diegopetrucci](https://instagram.com/diegopetrucci)
