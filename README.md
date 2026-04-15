@@ -48,3 +48,4 @@ If you're curious about how I set my machines things up:
 
 - Twitter [@diegopetrucci](https://twitter.com/diegopetrucci)
 - Mastodon [@diegopetrucci](https://mastodon.social/@diegopetrucci)
+- LinkedIn [diegopetrucci](https://www.linkedin.com/in/diegopetrucci/)
