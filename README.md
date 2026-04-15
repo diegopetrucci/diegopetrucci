@@ -31,7 +31,7 @@ Skill issue?
   - [**starting-from-scratch**](https://github.com/diegopetrucci/starting-from-scratch) — reviews a codebase's history and says what should change if you were starting again.
   - [**tfl-journey-disruption**](https://github.com/diegopetrucci/tfl-journey-disruption) — plans London journeys and warns about TfL disruptions.
 
-### pi extensions
+### Pi extensions
 
 I've also started publishing extensions for [pi](https://github.com/badlogic/pi-mono), my current agent harness of choice.
 
