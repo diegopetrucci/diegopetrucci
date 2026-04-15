@@ -1,23 +1,23 @@
-### Diego Petrucci
+# Hi, I'm Diego
 
-Hi, I'm Diego — senior iOS engineer at [Numan](https://www.numan.com/). Previously, I've worked at [Babylon Health](https://www.babylonhealth.com) and [Plum](https://withplum.com).
+Senior iOS engineer at [Numan](https://www.numan.com/). Previously: [Babylon Health](https://www.babylonhealth.com), [Plum](https://withplum.com).
 
 I live in London, UK, but am originally from Tuscany, in Italy. Find me dancing salsa and bachata after work! 💃
 
-#### Writing
+### Writing
 
 Sometimes [I write about AI and software engineering](https://diegopetrucci.github.io/dev/), sometimes [I write about life](https://diegopetrucci.it/blog).
 
-#### Projects
+### Projects
 
-A few things I've been building and sharing:
+A few things I've been building:
 
 - [**pi-assistant**](https://github.com/diegopetrucci/pi-assistant) — use a Raspberry Pi as a voice AI assistant.
 - [**claudio**](https://github.com/diegopetrucci/claudio) — a Swift & Vapor reimplementation of OpenClaw.
 
-#### AI skills
+### AI skills
 
-I like turning useful workflows into reusable skills for coding agents.
+Skill issue?
 
 - [**ai-agents-skills**](https://github.com/diegopetrucci/ai-agents-skills) — the main collection of agent skills and Claude Code plugins I maintain.
 - [**ios-agents-skills**](https://github.com/diegopetrucci/ios-agents-skills) — skills focused on iOS and Apple platform development.
@@ -31,7 +31,7 @@ I like turning useful workflows into reusable skills for coding agents.
   - [**starting-from-scratch**](https://github.com/diegopetrucci/starting-from-scratch) — reviews a codebase's history and says what should change if you were starting again.
   - [**tfl-journey-disruption**](https://github.com/diegopetrucci/tfl-journey-disruption) — plans London journeys and warns about TfL disruptions.
 
-#### pi extensions
+### pi extensions
 
 I've also started publishing extensions for [pi](https://github.com/badlogic/pi-mono), my current agent harness of choice.
 
@@ -39,12 +39,12 @@ I've also started publishing extensions for [pi](https://github.com/badlogic/pi-
 - Individual extensions:
   - [**minimal-footer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/minimal-footer) — a tiny extension that replaces pi's built-in footer with a cleaner two-line layout.
 
-#### Dotfiles
+### Dotfiles
 
 If you're curious about how I set my machines things up:
 - [**dot**](https://github.com/diegopetrucci/dot) — my public dotfiles
 
-#### Get in touch
+### Get in touch
 
 - Twitter [@diegopetrucci](https://twitter.com/diegopetrucci)
 - Mastodon [@diegopetrucci](https://mastodon.social/@diegopetrucci)
