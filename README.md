@@ -41,7 +41,7 @@ I've also started publishing extensions for [pi](https://github.com/badlogic/pi-
 
 ### Dotfiles
 
-If you're curious about how I set my machines things up:
+If you're curious about how I set my machines up:
 - [**dot**](https://github.com/diegopetrucci/dot) — my public dotfiles
 
 ### Get in touch
