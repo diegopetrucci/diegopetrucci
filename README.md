@@ -1,4 +1,4 @@
-# Hi, I'm Diego
+# Hi, I'm Diego 💃
 
 Senior iOS engineer at [Numan](https://www.numan.com/). Previously: [Babylon Health](https://www.babylonhealth.com), [Plum](https://withplum.com).
 
