@@ -20,7 +20,6 @@ A few things I've been building:
 Skill issue?
 
 - [**ai-agents-skills**](https://github.com/diegopetrucci/ai-agents-skills) — the main collection of agent skills, Claude Code plugins, and Codex plugins I maintain.
-- Individual skills:
   - [**agent-workflow-audit**](https://github.com/diegopetrucci/agent-workflow-audit) — audits a repo's agent workflow for wasted steps and unclear instructions.
   - [**github-librarian**](https://github.com/diegopetrucci/github-librarian) — researches GitHub code with `gh`, returning path-first findings with line evidence.
   - [**ios-agents-skills**](https://github.com/diegopetrucci/ios-agents-skills) — skills focused on iOS and Apple platform development.
