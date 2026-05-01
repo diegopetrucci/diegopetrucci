@@ -20,7 +20,6 @@ A few things I've been building:
 Skill issue?
 
 - [**ai-agents-skills**](https://github.com/diegopetrucci/ai-agents-skills) — the main collection of agent skills and Claude Code plugins I maintain.
-- [**ios-agents-skills**](https://github.com/diegopetrucci/ios-agents-skills) — skills focused on iOS and Apple platform development.
 - Individual skills:
   - [**agent-workflow-audit**](https://github.com/diegopetrucci/agent-workflow-audit) — audits a repo's agent workflow for wasted steps and unclear instructions.
   - [**odds-api-io**](https://github.com/diegopetrucci/odds-api-io) — gives agents access to sports odds via Odds-API.io.
@@ -30,6 +29,7 @@ Skill issue?
   - [**sentry-cli**](https://github.com/diegopetrucci/sentry-cli) — gives agents tools to interface with Sentry's error reporting.
   - [**starting-from-scratch**](https://github.com/diegopetrucci/starting-from-scratch) — reviews a codebase's history and says what should change if you were starting again.
   - [**tfl-journey-disruption**](https://github.com/diegopetrucci/tfl-journey-disruption) — plans London journeys and warns about TfL disruptions.
+- [**ios-agents-skills**](https://github.com/diegopetrucci/ios-agents-skills) — skills focused on iOS and Apple platform development.
 
 ### Pi extensions
 
