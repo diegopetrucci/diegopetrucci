@@ -19,9 +19,11 @@ A few things I've been building:
 
 Skill issue?
 
-- [**ai-agents-skills**](https://github.com/diegopetrucci/ai-agents-skills) — the main collection of agent skills and Claude Code plugins I maintain.
+- [**ai-agents-skills**](https://github.com/diegopetrucci/ai-agents-skills) — the main collection of agent skills, Claude Code plugins, and Codex plugins I maintain.
 - Individual skills:
   - [**agent-workflow-audit**](https://github.com/diegopetrucci/agent-workflow-audit) — audits a repo's agent workflow for wasted steps and unclear instructions.
+  - [**github-librarian**](https://github.com/diegopetrucci/github-librarian) — researches GitHub code with `gh`, returning path-first findings with line evidence.
+  - [**ios-agents-skills**](https://github.com/diegopetrucci/ios-agents-skills) — skills focused on iOS and Apple platform development.
   - [**odds-api-io**](https://github.com/diegopetrucci/odds-api-io) — gives agents access to sports odds via Odds-API.io.
   - [**pr-comments-triage**](https://github.com/diegopetrucci/pr-comments-triage) — checks whether PR review comments are actually valid before fixing anything.
   - [**prd-interviewer**](https://github.com/diegopetrucci/prd-interviewer) — builds a PRD through a focused, one-question-at-a-time interview.
@@ -29,7 +31,6 @@ Skill issue?
   - [**sentry-cli**](https://github.com/diegopetrucci/sentry-cli) — gives agents tools to interface with Sentry's error reporting.
   - [**starting-from-scratch**](https://github.com/diegopetrucci/starting-from-scratch) — reviews a codebase's history and says what should change if you were starting again.
   - [**tfl-journey-disruption**](https://github.com/diegopetrucci/tfl-journey-disruption) — plans London journeys and warns about TfL disruptions.
-- [**ios-agents-skills**](https://github.com/diegopetrucci/ios-agents-skills) — skills focused on iOS and Apple platform development.
 
 ### Pi extensions
 
@@ -37,7 +38,11 @@ I've also started publishing extensions for [pi](https://github.com/badlogic/pi-
 
 - [**pi-extensions**](https://github.com/diegopetrucci/pi-extensions) — a collection of pi extensions.
 - Individual extensions:
-  - [**minimal-footer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/minimal-footer) — a tiny extension that replaces pi's built-in footer with a cleaner two-line layout.
+  - [**minimal-footer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/minimal-footer) — a minimal two-line footer with branch/repo, context/model, and OpenAI Codex usage.
+  - [**oracle**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/oracle) — a read-only oracle tool that selects the strongest reasoning model on the current provider/subscription.
+  - [**permission-gate**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/permission-gate) — confirms dangerous bash commands like `rm -rf`, `sudo`, and `chmod 777`.
+  - [**confirm-destructive**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/confirm-destructive) — confirms destructive session actions like clear, switch, and fork.
+  - [**notify**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/notify) — terminal, desktop, bell, and sound notifications when pi is ready for input.
 
 ### Dotfiles
 
