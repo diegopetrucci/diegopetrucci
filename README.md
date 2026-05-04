@@ -31,6 +31,13 @@ Skill issue?
   - [**starting-from-scratch**](https://github.com/diegopetrucci/starting-from-scratch) — reviews a codebase's history and says what should change if you were starting again.
   - [**tfl-journey-disruption**](https://github.com/diegopetrucci/tfl-journey-disruption) — plans London journeys and warns about TfL disruptions.
 
+### Subagents
+
+Reusable [subagents](https://github.com/diegopetrucci/subagents) for agent workflows:
+
+- [**Agent notes maintainer**](https://github.com/diegopetrucci/subagents/tree/main/agent-notes-maintainer) — maintains `.agents/notes.md` when a repo lesson should be recorded.
+- [**iOS/macOS test runner**](https://github.com/diegopetrucci/subagents/tree/main/ios-macos-test-runner) — runs iOS/macOS build and test commands after code changes, then reports concise results.
+
 ### Pi extensions
 
 I've also started publishing extensions for [pi](https://github.com/badlogic/pi-mono), my current agent harness of choice.
