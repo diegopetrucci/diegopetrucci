@@ -12,6 +12,7 @@ Sometimes [I write about AI and software engineering](https://diegopetrucci.gith
 
 A few things I've been building:
 
+- [**the last harness**](https://github.com/diegopetrucci/the-last-harness) — a hyper-customised version of [pi](https://github.com/badlogic/pi-mono). 
 - [**pi-assistant**](https://github.com/diegopetrucci/pi-assistant) — use a Raspberry Pi as a voice AI assistant.
 - [**claudio**](https://github.com/diegopetrucci/claudio) — a Swift & Vapor reimplementation of OpenClaw.
 
