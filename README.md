@@ -27,6 +27,7 @@ Skill issue?
   - [**odds-api-io**](https://github.com/diegopetrucci/odds-api-io) — gives agents access to sports odds via Odds-API.io.
   - [**pr-comments-triage**](https://github.com/diegopetrucci/pr-comments-triage) — checks whether PR review comments are actually valid before fixing anything.
   - [**prd-interviewer**](https://github.com/diegopetrucci/prd-interviewer) — builds a PRD through a focused, one-question-at-a-time interview.
+  - [**rebase-and-fix-conflicts**](https://github.com/diegopetrucci/rebase-and-fix-conflicts) — rebases onto `main` and resolves conflicts while preserving branch intent.
   - [**remove-ai-code-slop**](https://github.com/diegopetrucci/remove-ai-code-slop) — cleans up telltale AI-generated code patterns.
   - [**sentry-cli**](https://github.com/diegopetrucci/sentry-cli) — gives agents tools to interface with Sentry's error reporting.
   - [**starting-from-scratch**](https://github.com/diegopetrucci/starting-from-scratch) — reviews a codebase's history and says what should change if you were starting again.
