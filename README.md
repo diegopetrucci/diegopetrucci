@@ -12,7 +12,7 @@ Sometimes [I write about AI and software engineering](https://diegopetrucci.gith
 
 A few things I've been building:
 
-- [**the last harness**](https://github.com/diegopetrucci/the-last-harness) — a hyper-customised version of [pi](https://github.com/badlogic/pi-mono). 
+- [**the last harness**](https://github.com/diegopetrucci/the-last-harness) — an opinionated [pi](https://github.com/earendil-works/pi-mono)-based agent harness with primary agents, subagents, context management, safety rails, and install/update tooling.
 - [**pi-assistant**](https://github.com/diegopetrucci/pi-assistant) — use a Raspberry Pi as a voice AI assistant.
 - [**claudio**](https://github.com/diegopetrucci/claudio) — a Swift & Vapor reimplementation of OpenClaw.
 
@@ -42,15 +42,28 @@ Reusable [subagents](https://github.com/diegopetrucci/subagents) for agent workf
 
 ### Pi extensions
 
-I've also started publishing extensions for [pi](https://github.com/badlogic/pi-mono), my current agent harness of choice.
+I've also started publishing extensions for [pi](https://github.com/earendil-works/pi-mono), my current agent harness of choice.
 
 - [**pi-extensions**](https://github.com/diegopetrucci/pi-extensions) — a collection of pi extensions.
 - Individual extensions:
+  - [**agent-workflow-audit**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/agent-workflow-audit) — runs an isolated repo workflow audit subagent and returns a distilled report.
+  - [**brrr**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/brrr) — sends brrr push notifications when pi is ready for input.
+  - [**confirm-destructive**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/confirm-destructive) — confirms destructive session actions like clear, switch, and fork.
+  - [**context-cap**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/context-cap) — caps effective model context windows to avoid the `dumb zone`.
+  - [**context-inspector**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/context-inspector) — generates a local dashboard showing where the current session context is going.
+  - [**dirty-repo-guard**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/dirty-repo-guard) — prompts before session actions when the current repo has uncommitted changes.
+  - [**gnosis**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/gnosis) — exposes the `gn` repo-local knowledge base CLI as an agent tool.
+  - [**inline-bash**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/inline-bash) — expands trusted `!{command}` snippets before the prompt reaches the agent.
+  - [**librarian**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/librarian) — adds a cached GitHub research scout for path-first code findings.
   - [**minimal-footer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/minimal-footer) — a minimal two-line footer with branch/repo, context/model, and OpenAI Codex usage.
+  - [**notify**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/notify) — terminal, desktop, bell, and sound notifications when pi is ready for input.
+  - [**openai-fast**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/openai-fast) — adds `/fast` controls for OpenAI Codex Fast mode.
   - [**oracle**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/oracle) — a read-only oracle tool that selects the strongest reasoning model on the current provider/subscription.
   - [**permission-gate**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/permission-gate) — confirms dangerous bash commands like `rm -rf`, `sudo`, and `chmod 777`.
-  - [**confirm-destructive**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/confirm-destructive) — confirms destructive session actions like clear, switch, and fork.
-  - [**notify**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/notify) — terminal, desktop, bell, and sound notifications when pi is ready for input.
+  - [**quiet-tools**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/quiet-tools) — renders collapsed built-in tool rows as compact one-line invocations.
+  - [**review**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/review) — adds interactive review flows for local changes, commits, PRs, and selected paths.
+  - [**todo**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/todo) — adds a branch-aware `todo` tool and a `/todos` viewer.
+  - [**triage-comments**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/triage-comments) — checks PR review comments for validity before implementing anything.
 
 ### Dotfiles
 
