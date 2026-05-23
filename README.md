@@ -33,19 +33,9 @@ Skill issue?
   - [**starting-from-scratch**](https://github.com/diegopetrucci/starting-from-scratch) — reviews a codebase's history and says what should change if you were starting again.
   - [**tfl-journey-disruption**](https://github.com/diegopetrucci/tfl-journey-disruption) — plans London journeys and warns about TfL disruptions.
 
-### Subagents
-
-Reusable [subagents](https://github.com/diegopetrucci/subagents) for agent workflows:
-
-- [**Agent notes maintainer**](https://github.com/diegopetrucci/subagents/tree/main/agent-notes-maintainer) — maintains `.agents/notes.md` when a repo lesson should be recorded.
-- [**iOS/macOS test runner**](https://github.com/diegopetrucci/subagents/tree/main/ios-macos-test-runner) — runs iOS/macOS build and test commands after code changes, then reports concise results.
-
 ### Pi extensions
 
-I've also started publishing extensions for [pi](https://github.com/earendil-works/pi-mono), my current agent harness of choice.
-
-- [**pi-extensions**](https://github.com/diegopetrucci/pi-extensions) — a collection of pi extensions.
-- Individual extensions:
+I've also started publishing [**extensions for pi**](https://github.com/diegopetrucci/pi-extensions) my current agent harness of choice:
   - [**agent-workflow-audit**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/agent-workflow-audit) — runs an isolated repo workflow audit subagent and returns a distilled report.
   - [**brrr**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/brrr) — sends brrr push notifications when pi is ready for input.
   - [**confirm-destructive**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/confirm-destructive) — confirms destructive session actions like clear, switch, and fork.
