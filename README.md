@@ -23,6 +23,7 @@ Skill issue?
 - [**ai-agents-skills**](https://github.com/diegopetrucci/ai-agents-skills) — the main collection of agent skills, Claude Code plugins, and Codex plugins I maintain.
   - [**agent-workflow-audit**](https://github.com/diegopetrucci/agent-workflow-audit) — audits a repo's agent workflow for wasted steps and unclear instructions.
   - [**github-librarian**](https://github.com/diegopetrucci/github-librarian) — researches GitHub code with `gh`, returning path-first findings with line evidence.
+  - [**illustrations-to-explain-things**](https://github.com/diegopetrucci/illustrations-to-explain-things) — turns articles and workflows into clean, absurd Xiaohei-style explainer illustrations.
   - [**ios-agents-skills**](https://github.com/diegopetrucci/ios-agents-skills) — skills focused on iOS and Apple platform development.
   - [**odds-api-io**](https://github.com/diegopetrucci/odds-api-io) — gives agents access to sports odds via Odds-API.io.
   - [**pr-comments-triage**](https://github.com/diegopetrucci/pr-comments-triage) — checks whether PR review comments are actually valid before fixing anything.
@@ -35,15 +36,20 @@ Skill issue?
 
 ### Pi extensions
 
-I've also started publishing [**extensions for pi**](https://github.com/diegopetrucci/pi-extensions) my current agent harness of choice:
+I've also started publishing [**extensions for pi**](https://github.com/diegopetrucci/pi-extensions), my current agent harness of choice:
   - [**agent-workflow-audit**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/agent-workflow-audit) — runs an isolated repo workflow audit subagent and returns a distilled report.
+  - [**annotate-git-diff**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/annotate-git-diff) — opens a native review UI for annotating git diffs and sending structured feedback back to the agent.
+  - [**annotate-last-message**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/annotate-last-message) — opens a native review UI for annotating the latest assistant reply.
   - [**brrr**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/brrr) — sends brrr push notifications when pi is ready for input.
+  - [**claude-fast**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/claude-fast) — adds `/claude-fast` controls for supported Claude Opus Fast mode.
   - [**confirm-destructive**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/confirm-destructive) — confirms destructive session actions like clear, switch, and fork.
   - [**context-cap**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/context-cap) — caps effective model context windows to avoid the `dumb zone`.
   - [**context-inspector**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/context-inspector) — generates a local dashboard showing where the current session context is going.
   - [**dirty-repo-guard**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/dirty-repo-guard) — prompts before session actions when the current repo has uncommitted changes.
+  - [**git-footer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/git-footer) — adds compact git status, ahead/behind, and optional PR details to pi's footer.
   - [**gnosis**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/gnosis) — exposes the `gn` repo-local knowledge base CLI as an agent tool.
   - [**inline-bash**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/inline-bash) — expands trusted `!{command}` snippets before the prompt reaches the agent.
+  - [**illustrations-to-explain-things**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/illustrations-to-explain-things) — generates Xiaohei-style article illustrations, shot lists, image edits, and visual metaphors.
   - [**librarian**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/librarian) — adds a cached GitHub research scout for path-first code findings.
   - [**minimal-footer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/minimal-footer) — a minimal two-line footer with branch/repo, context/model, and OpenAI Codex usage.
   - [**notify**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/notify) — terminal, desktop, bell, and sound notifications when pi is ready for input.
