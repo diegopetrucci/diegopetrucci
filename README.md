@@ -42,10 +42,13 @@ I've also started publishing [**extensions for pi**](https://github.com/diegopet
   - [**annotate-last-message**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/annotate-last-message) — opens a native review UI for annotating the latest assistant reply.
   - [**brrr**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/brrr) — sends brrr push notifications when pi is ready for input.
   - [**claude-fast**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/claude-fast) — adds `/claude-fast` controls for supported Claude Opus Fast mode.
+  - [**code-reviewer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/code-reviewer) — runs an isolated read-only second-pass review against the local checkout.
   - [**confirm-destructive**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/confirm-destructive) — confirms destructive session actions like clear, switch, and fork.
   - [**context-cap**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/context-cap) — caps effective model context windows to avoid the `dumb zone`.
   - [**context-inspector**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/context-inspector) — generates a local dashboard showing where the current session context is going.
+  - [**contrarian**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/contrarian) — stress-tests plans, designs, assumptions, and bug hypotheses with a read-only opposing case.
   - [**dirty-repo-guard**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/dirty-repo-guard) — prompts before session actions when the current repo has uncommitted changes.
+  - [**dynamic-context-pruning**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/dynamic-context-pruning) — prunes stale, duplicate, and superseded tool-call content from long-running sessions.
   - [**git-footer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/git-footer) — adds compact git status, ahead/behind, and optional PR details to pi's footer.
   - [**gnosis**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/gnosis) — exposes the `gn` repo-local knowledge base CLI as an agent tool.
   - [**inline-bash**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/inline-bash) — expands trusted `!{command}` snippets before the prompt reaches the agent.
