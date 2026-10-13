@@ -48,7 +48,6 @@ I've also started publishing [**extensions for pi**](https://github.com/diegopet
 
 I've made a few plugins for [**Stavrobot**](https://github.com/skorokithakis/stavrobot), an AI personal assistant:
 
-- [**Apple Reminders**](https://github.com/diegopetrucci/stavrobot-apple-reminders-plugin) — reads and manages reminders through an authenticated macOS bridge.
 - [**ebooks**](https://github.com/diegopetrucci/stavrobot-ebooks-plugin) — searches and requests ebooks through Bookshelf, then tracks acquisition status.
 - [**iMCP**](https://github.com/diegopetrucci/stavrobot-imcp-plugin) — connects to your Mac's calendar, contacts, messages, reminders, and other approved native tools through iMCP.
 - [**Polymarket**](https://github.com/diegopetrucci/stavrobot-polymarket-plugin) — searches prediction markets and retrieves current implied probabilities and trending events.
