@@ -44,6 +44,17 @@ I've also started publishing [**extensions for pi**](https://github.com/diegopet
   - [**todo**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/todo) — adds a branch-aware `todo` tool and a `/todos` viewer.
   - [**triage-comments**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/triage-comments) — checks PR review comments for validity before implementing anything.
 
+### Stavrobot plugins
+
+I've made a few plugins for [**Stavrobot**](https://github.com/skorokithakis/stavrobot), an AI personal assistant:
+
+- [**Apple Reminders**](https://github.com/diegopetrucci/stavrobot-apple-reminders-plugin) — reads and manages reminders through an authenticated macOS bridge.
+- [**ebooks**](https://github.com/diegopetrucci/stavrobot-ebooks-plugin) — searches and requests ebooks through Bookshelf, then tracks acquisition status.
+- [**iMCP**](https://github.com/diegopetrucci/stavrobot-imcp-plugin) — connects to your Mac's calendar, contacts, messages, reminders, and other approved native tools through iMCP.
+- [**Polymarket**](https://github.com/diegopetrucci/stavrobot-polymarket-plugin) — searches prediction markets and retrieves current implied probabilities and trending events.
+- [**Price Haggler**](https://github.com/diegopetrucci/stavrobot-price-haggler-plugin) — tracks retail prices and reports price drops and back-in-stock alerts.
+- [**Sportarr**](https://github.com/diegopetrucci/stavrobot-sportarr-plugin) — searches sports events, checks schedules and live scores, and manages recordings through Sportarr.
+
 ### AI skills
 
 Skill issue?
