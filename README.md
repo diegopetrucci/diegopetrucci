@@ -21,14 +21,16 @@ I've also started publishing [**extensions for pi**](https://github.com/diegopet
   - [**annotate-git-diff**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/annotate-git-diff) — opens a native review UI for annotating git diffs and sending structured feedback back to the agent.
   - [**annotate-last-message**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/annotate-last-message) — opens a native review UI for annotating the latest assistant reply.
   - [**brrr**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/brrr) — sends brrr push notifications when pi is ready for input.
-  - [**claude-fast**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/claude-fast) — adds `/claude-fast` controls for supported Claude Opus Fast mode.
   - [**code-reviewer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/code-reviewer) — runs an isolated read-only second-pass review against the local checkout.
   - [**confirm-destructive**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/confirm-destructive) — confirms destructive session actions like clear, switch, and fork.
   - [**context-cap**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/context-cap) — caps effective model context windows to avoid the `dumb zone`.
   - [**context-inspector**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/context-inspector) — generates a local dashboard showing where the current session context is going.
   - [**contrarian**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/contrarian) — stress-tests plans, designs, assumptions, and bug hypotheses with a read-only opposing case.
+  - [**developer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/developer) — delegates a scoped implementation task to an isolated child agent.
+  - [**diff-summarizer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/diff-summarizer) — summarizes a change set and flags risky areas before review.
   - [**dirty-repo-guard**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/dirty-repo-guard) — prompts before session actions when the current repo has uncommitted changes.
   - [**dynamic-context-pruning**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/dynamic-context-pruning) — prunes stale, duplicate, and superseded tool-call content from long-running sessions.
+  - [**fast**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/fast) — adds one `/fast` toggle for supported OpenAI and Claude models.
   - [**git-footer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/git-footer) — adds compact git status, ahead/behind, and optional PR details to pi's footer.
   - [**gnosis**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/gnosis) — exposes the `gn` repo-local knowledge base CLI as an agent tool.
   - [**inline-bash**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/inline-bash) — expands trusted `!{command}` snippets before the prompt reaches the agent.
@@ -36,18 +38,22 @@ I've also started publishing [**extensions for pi**](https://github.com/diegopet
   - [**librarian**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/librarian) — adds a cached GitHub research scout for path-first code findings.
   - [**minimal-footer**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/minimal-footer) — a minimal two-line footer with branch/repo, context/model, and OpenAI Codex usage.
   - [**notify**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/notify) — terminal, desktop, bell, and sound notifications when pi is ready for input.
-  - [**openai-fast**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/openai-fast) — adds `/fast` controls for OpenAI Codex Fast mode.
   - [**oracle**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/oracle) — a read-only oracle tool that selects the strongest reasoning model on the current provider/subscription.
   - [**permission-gate**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/permission-gate) — confirms dangerous bash commands like `rm -rf`, `sudo`, and `chmod 777`.
+  - [**project-mcp-json**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/project-mcp-json) — loads trusted project `.mcp.json` server configuration into pi.
   - [**quiet-tools**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/quiet-tools) — renders collapsed built-in tool rows as compact one-line invocations.
+  - [**repo-scout**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/repo-scout) — maps a repository's stack, conventions, and validation commands.
   - [**review**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/review) — adds interactive review flows for local changes, commits, PRs, and selected paths.
+  - [**test-runner**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/test-runner) — runs specified validation commands in order and reports their results.
   - [**todo**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/todo) — adds a branch-aware `todo` tool and a `/todos` viewer.
   - [**triage-comments**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/triage-comments) — checks PR review comments for validity before implementing anything.
+  - [**web-scout**](https://github.com/diegopetrucci/pi-extensions/tree/main/extensions/web-scout) — researches focused web questions and returns cited sources.
 
 ### Stavrobot plugins
 
 I've made a few plugins for [**Stavrobot**](https://github.com/skorokithakis/stavrobot), an AI personal assistant:
 
+- [**Apple Reminders**](https://github.com/diegopetrucci/stavrobot-apple-reminders-plugin) — reads and manages Apple Reminders through an authenticated Mac bridge.
 - [**ebooks**](https://github.com/diegopetrucci/stavrobot-ebooks-plugin) — searches and requests ebooks through Bookshelf, then tracks acquisition status.
 - [**iMCP**](https://github.com/diegopetrucci/stavrobot-imcp-plugin) — connects to your Mac's calendar, contacts, messages, reminders, and other approved native tools through iMCP.
 - [**Polymarket**](https://github.com/diegopetrucci/stavrobot-polymarket-plugin) — searches prediction markets and retrieves current implied probabilities and trending events.
@@ -55,8 +61,6 @@ I've made a few plugins for [**Stavrobot**](https://github.com/skorokithakis/sta
 - [**Sportarr**](https://github.com/diegopetrucci/stavrobot-sportarr-plugin) — searches sports events, checks schedules and live scores, and manages recordings through Sportarr.
 
 ### AI skills
-
-Skill issue?
 
 - [**ai-agents-skills**](https://github.com/diegopetrucci/ai-agents-skills) — the main collection of agent skills, Claude Code plugins, and Codex plugins I maintain.
   - [**agent-workflow-audit**](https://github.com/diegopetrucci/agent-workflow-audit) — audits a repo's agent workflow for wasted steps and unclear instructions.
@@ -76,6 +80,10 @@ Skill issue?
 
 If you're curious about how I set my machines up:
 - [**dot**](https://github.com/diegopetrucci/dot) — my public dotfiles
+
+### Misc
+
+- [**goodlinks-to-crosspoint**](https://github.com/diegopetrucci/goodlinks-to-crosspoint) — converts selected GoodLinks articles to EPUBs and sends them to CrossPoint e-readers.
 
 ### Get in touch
 
